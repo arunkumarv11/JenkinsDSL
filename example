@@ -7,7 +7,7 @@ description ('This job checks some services')
  }
   triggers
  {
-   cron('H/2 * * * *')
+   cron('H * * * *')
  }
   steps
  {
