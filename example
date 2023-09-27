@@ -11,6 +11,6 @@ description ('This job checks some services')
  }
   steps
  {
-    shell('/root/GitLocalRepo/JenkinsDSL/ntpd-check')
+    shell('./ntpd-check')
   }
 }
