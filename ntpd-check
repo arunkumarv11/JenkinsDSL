@@ -1,0 +1,10 @@
+#! /bin/sh
+
+Status=$(systemctl status ntpd.service | grep -i active | awk '{print $2}')
+
+if [ "$Status" == "active" ];then
+        echo "Service status is active"
+else
+        echo "Please restart the service"
+fi
+
