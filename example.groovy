@@ -11,6 +11,6 @@ description ('This job checks some services')
  }
   steps
  {
-    shell('date','sudo systemctl status firewalld.service')
+    shell('sudo systemctl status firewalld.service')
   }
 }
