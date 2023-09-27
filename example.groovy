@@ -11,6 +11,6 @@ description ('This job checks some services')
  }
   steps
  {
-    shell('sudo systemctl status firewalld.service')
+    shell('systemctl status firewalld.service', 'echo the service check was successfull')
   }
 }
