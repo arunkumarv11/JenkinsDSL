@@ -1,4 +1,4 @@
-job('Service-Check') {
+job('Service-Firewall-Check') {
 
 description ('This job checks some services')
   scm
