@@ -7,7 +7,7 @@ description ('This job checks some services')
  }
   triggers
  {
-   upstream('Seed Job','SUCCESS')
+   cron('H/2 * * * *')
  }
   steps
  {
