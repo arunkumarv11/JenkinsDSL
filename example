@@ -11,6 +11,6 @@ description ('This job checks some services')
  }
   steps
  {
-    shell('systemctl status firewalld.service')
+    shell('ntpd-check.sh')
   }
 }
